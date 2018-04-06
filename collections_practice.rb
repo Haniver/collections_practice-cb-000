@@ -10,8 +10,8 @@ end
 
 def sort_array_char_count(array)
   return array.sort do |a, b|
-    0 if a.length == b.lenght
-    -1 if a.lenght < b.lenght
-    1 if a.lenght > b.lenght
+    0 if a.length == b.length
+    -1 if a.length < b.length
+    1 if a.length > b.length
   end
 end
